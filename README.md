@@ -25,7 +25,7 @@ In the test, the proposals will be evaluated on multiple YUV 4:2:0 test sequence
 ### Evaluation Criteria
 The test sequences will be released according to the timeline in Table 1 and the results will be evaluated with the following criteria:
 1.	The decoded sequences will be evaluated in 4:2:0 color format. 
-2.	$PSNR (6\*PSNR_Y + PSNR_U + PSNR_V)/8$ will be used to evaluate the distortion of the decoded pictures.
+2.	$$PSNR (6\*PSNR_Y + PSNR_U + PSNR_V)/8$$ will be used to evaluate the distortion of the decoded pictures.
 3.	Average Bjøntegaard delta bitrates (BDR) calculated using [1] for all test sequences will be gathered to compare the coding efficiency.
 4.	An anchor of HM 16.22 [2] coded with QPs = {22, 27, 32, 37} under random access configuration defined in the HM common test conditions [3] will be provided. The released anchor data will include the bit-rates corresponding to the four QPs for each sequence. It is required that the proposed method should generate four bit-streams for each sequence, targeting the anchor bit-rates corresponding to the four QPs. Additional constraints are listed as follows:
 
@@ -43,7 +43,7 @@ Complexity analysis of the proposed solutions is encouraged for the paper submis
 
 |Date|Event|
 |--|--|
-|Sep. $30^th$, 2021|Participants express interest in participation by sending an email to the organizer Dr. Yue Li (yue.li@bytedance.com)|
+|Sep. $$30^th$$, 2021|Participants express interest in participation by sending an email to the organizer Dr. Yue Li (yue.li@bytedance.com)|
 |Oct. 8^th^, 2021|The organizers release the validation set as well as the corresponding test information (e.g., frame rates and intra periods) and template for performance reporting (with rate-distortion points for the validation set)|
 |Nov. 8^th^, 2021|Deadline of paper submission (to be aligned with Special Sessions in case of extension) for participants|
 |Nov. 22^th^, 2021|Participants upload docker container wherein only one single decoder shall be utilized for the decoding of all the bitstreams|
