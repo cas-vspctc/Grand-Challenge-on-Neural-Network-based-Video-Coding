@@ -37,8 +37,9 @@ Complexity analysis of the proposed solutions is encouraged for the paper submis
 
 ### Important Dates
 
-|Sep. $30^{th}$, 2021|Participants express interest in participation by sending an email to the organizer Dr. Yue Li (yue.li@bytedance.com)|
+|Date|Event|
 |--|--|
+|Sep. $$30^{th}$$, 2021|Participants express interest in participation by sending an email to the organizer Dr. Yue Li (yue.li@bytedance.com)|
 |Oct. $8^{th}$, 2021|The organizers release the validation set as well as the corresponding test information (e.g., frame rates and intra periods) and template for performance reporting (with rate-distortion points for the validation set)|
 |Nov. $8^{th}$, 2021|Deadline of paper submission (to be aligned with Special Sessions in case of extension) for participants|
 |Nov. $22^{th}$, 2021|Participants upload docker container wherein only one single decoder shall be utilized for the decoding of all the bitstreams|
