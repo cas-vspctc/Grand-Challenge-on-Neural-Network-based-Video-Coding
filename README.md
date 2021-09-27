@@ -24,9 +24,10 @@ The test sequences will be released according to the timeline in Table 1 and the
 2.	PSNR (6*PSNRY + PSNRU + PSNRV)/8 will be used to evaluate the distortion of the decoded pictures.
 3.	Average Bjøntegaard delta bitrates (BDR) calculated using [1] for all test sequences will be gathered to compare the coding efficiency.
 4.	An anchor of HM 16.22 [2] coded with QPs = {22, 27, 32, 37} under random access configuration defined in the HM common test conditions [3] will be provided. The released anchor data will include the bit-rates corresponding to the four QPs for each sequence. It is required that the proposed method should generate four bit-streams for each sequence, targeting the anchor bit-rates corresponding to the four QPs. Additional constraints are listed as follows:
-  a.	For each sequence, the range of four real bit-rates shall be [90% * the lowest anchor bit-rate, 110% * the highest anchor bit-rate].
-  b.	Only one single decoder shall be utilized to decode all the bitstreams. 
-  c.	The intra period in the proposed submission shall be no larger than that used by the anchor in generating the validation and test sequences.
+
+a.	For each sequence, the range of four real bit-rates shall be [90% * the lowest anchor bit-rate, 110% * the highest anchor bit-rate].
+b.	Only one single decoder shall be utilized to decode all the bitstreams. 
+c.	The intra period in the proposed submission shall be no larger than that used by the anchor in generating the validation and test sequences.
 Proposed documents
 A docker container with the executable scheme must be submitted for results generation and cross-check. Each participant will be invited to submit a paper, which must describe the following items in detail. 
 o	The methodology;
@@ -35,12 +36,20 @@ o	Detailed rate-distortion data (Comparison with the provided anchor is encourag
 Complexity analysis of the proposed solutions is encouraged for the paper submission.
 
 ### Important Dates
+
 |Sep. $30^{th}$, 2021|Participants express interest in participation by sending an email to the organizer Dr. Yue Li (yue.li@bytedance.com)|
-|Sep. $30^{th}$, 2021|Participants express interest in participation by sending an email to the organizer Dr. Yue Li (yue.li@bytedance.com)|
-|Sep. $30^{th}$, 2021|Participants express interest in participation by sending an email to the organizer Dr. Yue Li (yue.li@bytedance.com)|
-|Sep. $30^{th}$, 2021|Participants express interest in participation by sending an email to the organizer Dr. Yue Li (yue.li@bytedance.com)|
-|Sep. $30^{th}$, 2021|Participants express interest in participation by sending an email to the organizer Dr. Yue Li (yue.li@bytedance.com)|
-|Sep. $30^{th}$, 2021|Participants express interest in participation by sending an email to the organizer Dr. Yue Li (yue.li@bytedance.com)|
-|Sep. $30^{th}$, 2021|Participants express interest in participation by sending an email to the organizer Dr. Yue Li (yue.li@bytedance.com)|
-|Sep. $30^{th}$, 2021|Participants express interest in participation by sending an email to the organizer Dr. Yue Li (yue.li@bytedance.com)|
-|Sep. $30^{th}$, 2021|Participants express interest in participation by sending an email to the organizer Dr. Yue Li (yue.li@bytedance.com)|
+|--|--|
+|Oct. $8^{th}$, 2021|The organizers release the validation set as well as the corresponding test information (e.g., frame rates and intra periods) and template for performance reporting (with rate-distortion points for the validation set)|
+|Nov. $8^{th}$, 2021|Deadline of paper submission (to be aligned with Special Sessions in case of extension) for participants|
+|Nov. $22^{th}$, 2021|Participants upload docker container wherein only one single decoder shall be utilized for the decoding of all the bitstreams|
+|Nov. $26^{th}$, 2021|The organizers release the test sequences (including frame rate, corresponding rate-distortion points, etc.)|
+|Dec. $15^{th}$, 2021|Participants upload compressed bitstreams and decoded YUV files|
+|Dec. $28^{th}$, 2021|Deadline of fact sheets submission for participants|
+|Jan. $14^{th}$, 2021|Paper acceptance notification|
+|Feb. $5^{th}$, 2021|Camera-ready paper submission deadline|
+|TBA|Paper presentation within Track 11.2 on “Learning-based Image/Video Coding”|
+|TBA|Awards announcement (at the ISCAS 2022 banquet)|
+
+### Awards
+ByteDance will sponsor the awards of this grand challenge. Three categorizes of awards are expected to be presented. Two top-performance awards will be granted according to the performance, for the hybrid track and the end-to-end track, respectively. In addition, to foster the innovation, a top-creativity award will be given to the most inspiring scheme recommended by a committee group and it is only applicable to authors with their corresponding papers accepted by ISCAS 2022.
+
